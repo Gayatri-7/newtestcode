@@ -20,7 +20,10 @@ public class FindMaxDepth{
     root.left=new Treenode(3);
     root.right.right=new Treenode(4);
     root.right.left=new Treenode(5);
-    root.right.right.right=new Treenode(6);//added a new node  here answer should be 4 
+      root.right.left.left=new Treenode(5);//added new nodes
+      root.right.left.right=new Treenode(5);
+      root.right.left.right=new Treenode(5);
+    
     
 
     FindMaxDepth f=new FindMaxDepth();
